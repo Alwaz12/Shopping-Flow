@@ -1,3 +1,0 @@
-chainlit
-crewai
-crewai-tools
