@@ -1,0 +1,15 @@
+shopping_task:
+  description: >
+    Find the best products on the internet based on the user's input query.
+    Consider performance, price, and customer reviews.
+    Provide a detailed recommendation with 3 product options. 
+    if your not sure about any of the things then just mention that and provide the report based on your research and knowledge.
+    Input: {product}
+  expected_output: >
+    A text-based recommendation of 3 products. Return these things for each product:
+    - Product name
+    - Price (if not sure about the price, mention price range. but range should be so close.)
+    - Rating
+    - Link to the product page
+    thats it!
+  agent: shopping_agent
